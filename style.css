@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul {list-style:none; margin: 0; text-decoration: none;}
+
+
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Rubik+One);
+
+body {background: #f4f4f4;color: #3F3F3F;font-family: "Oswald",Arial,Helvetica,"Nimbus Sans L",sans-serif;letter-spacing: 1px;font-size: 15px;}
+
+.top{background: #FFCD02;color: #333;padding: 7px 0;font-size: 13px; height: 50px;}
+.top i.fa{font-size: 18px;margin-right: 4px;line-height: 1.9}
+.top span{ margin-right: 10px;}
+.f-right{float: right;}
+.f-left{float: left;}
+.zerogrid{ width: 1200px; position: relative; margin: 0 auto; padding: 0px;}
+.wid{ width: 400px;}
+
+header{background-color: #f7f7f7;border-bottom: 1px dashed #ccc; height: 130px} 
+header .logo img{display: inline-block;margin: auto;padding: 10px;max-width: 150px; max-height: 150px;}
+@media all and (max-width: 768px){
+	header .logo{text-align:center;width: 30%;}
+	header .logo img{display:block;}
+}
+.menu_ul{display: block; float: right; text-align:center;  height: 100%; width: 70%;}
+.menu_ul li {display: inline-block; font-size: 40px; font-weight: 700; margin: 35px 0 0 70px;}
+a{color: #212121;}
+a:hover{text-decoration: none; color: #FFCD02;}
+.slider{padding-top: 15px; padding-bottom: 30px; }
+
+.content{background-color: #f7f7f7;border-bottom: 1px dashed #ccc; border-top: 1px dashed #ccc;}
+
+.header{
+    height: 50px;
+    text-align: center;
+    margin: 40px 0;
+    font-weight: 600;
+}
+
+.places1{
+    border-bottom: 1px dashed #ccc;
+}
+.places{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.place{
+    width: 340px;
+}
+
+.place>img{
+    width: 340px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.places>.place>h3{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.silver-text{
+    color: silver;
+}
+
+.places>.place>p{
+    text-align: justify;
+    border-left: 2px solid #FFCD02;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+
+.contacts{
+    background: white;
+    display: flex;
+}
+.photo {
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+}
+.contact{
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+}
+.contact>h3{
+    margin-top: 60px;
+    font-weight: 600;
+}
+.contact>p{
+    width: 300px;
+    margin-left: 225px;
+}
+
+.bottom{background: #272727;color: rgba(236, 255, 250, 0.863);padding: 20px 0;font-size: 13px; height: 70px; text-align: center;}
